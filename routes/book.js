@@ -6,6 +6,11 @@ let bookController = require('../controllers/book');
 
 // Router for lists books function
 router.get('/list', bookController.bookList);
+/*name : Hetu Shiroya
+  Student id: 301204148
+  Date: 10/28/2021 
+  Mid Term*/
+
 
 // Router for book details function
 router.get('/details/:id', bookController.details);
